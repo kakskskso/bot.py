@@ -1,0 +1,10 @@
+checked_at=2026-11-08T23:01:04Z
+launched_cmd=python3 ./WAAD.py
+alive=no
+status=died
+ports=53 2000 2222 12563 13005 16634 16635 16636 33069 42523 
+--- app log tail ---
+Traceback (most recent call last):
+  File "/workspaces/bot.py/./WAAD.py", line 1, in <module>
+    import telebot
+ModuleNotFoundError: No module named 'telebot'
